@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TC010_Frames 
+public class TC011_Frames 
 {
 	public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException 
@@ -17,7 +17,7 @@ public class TC010_Frames
 		driver.manage().window().maximize();
 		driver.get("https://demoqa.com/frames");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		TC010_Frames frames= new TC010_Frames();
+		TC011_Frames frames= new TC011_Frames();
 		
 		//scrolling down to desired location
 		frames.Scrolldown();

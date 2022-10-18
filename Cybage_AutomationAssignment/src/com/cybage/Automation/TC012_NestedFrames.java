@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TC013_NestedFrames 
+public class TC012_NestedFrames 
 {
 	public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException 
@@ -18,7 +18,7 @@ public class TC013_NestedFrames
 		driver.manage().window().maximize();
 		driver.get("https://demoqa.com/nestedframes");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		TC013_NestedFrames nestedframes= new TC013_NestedFrames();
+		TC012_NestedFrames nestedframes= new TC012_NestedFrames();
 		
 		//scrolling down to desired location
 		nestedframes.Scrolldown();

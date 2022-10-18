@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class TC011_WindowHandling 
+public class TC009_WindowHandling 
 {
 	public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException 
@@ -21,7 +21,7 @@ public class TC011_WindowHandling
 		driver.manage().window().maximize();
 		driver.get("https://demoqa.com/browser-windows");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		TC011_WindowHandling windows= new TC011_WindowHandling();
+		TC009_WindowHandling windows= new TC009_WindowHandling();
 		
 		//handling New Tab
 	//	windows.HandlingnewTab();

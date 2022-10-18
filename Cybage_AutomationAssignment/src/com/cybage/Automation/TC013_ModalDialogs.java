@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class TC012_ModalDialogs 
+public class TC013_ModalDialogs 
 {
 	
 	public static WebDriver driver;
@@ -21,7 +21,7 @@ public class TC012_ModalDialogs
 		driver.get("https://demoqa.com/modal-dialogs");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		TC012_ModalDialogs tc= new TC012_ModalDialogs();
+		TC013_ModalDialogs tc= new TC013_ModalDialogs();
 		
 		//clicking on Small Modal Button
 		tc.smallmodal();
