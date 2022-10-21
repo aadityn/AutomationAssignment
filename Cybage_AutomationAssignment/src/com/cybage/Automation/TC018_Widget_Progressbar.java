@@ -15,7 +15,7 @@ public class TC018_Widget_Progressbar
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\aadityn\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://demoqa.com/progress-bar");
+		driver.get("https://demoqa.com/tabs");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		WebElement startbtn= driver.findElement(By.xpath("//button[@id='startStopButton']"));
