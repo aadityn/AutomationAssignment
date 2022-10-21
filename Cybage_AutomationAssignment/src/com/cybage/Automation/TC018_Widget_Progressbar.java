@@ -27,7 +27,6 @@ public class TC018_Widget_Progressbar
 			{
 				System.out.println("Your progress is completed :" +driver.findElement(By.xpath("//div[@role='progressbar']")).getText());
 				driver.findElement(By.xpath("//button[@id='resetButton']")).click();
-				return;
 			}
 			
 		}
