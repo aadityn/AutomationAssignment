@@ -43,7 +43,7 @@ public class TC020_Widgets_tooltips
 		WebElement hover2=driver.findElement(By.xpath("//input[@id='toolTipTextField']"));
 		act.moveToElement(hover2).build().perform();
 		System.out.println("The text when you hover on Textfield is : " +driver.findElement(By.xpath("//div[@id='textFieldToolTip']/div[2]")).getText());
-		
+	
 	}
 	
 	public void Scroll()
