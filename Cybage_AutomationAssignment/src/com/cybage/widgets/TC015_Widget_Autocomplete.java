@@ -1,4 +1,4 @@
-package com.cybage.Automation;
+package com.cybage.widgets;
 
 import java.awt.List;
 import java.util.concurrent.TimeUnit;
