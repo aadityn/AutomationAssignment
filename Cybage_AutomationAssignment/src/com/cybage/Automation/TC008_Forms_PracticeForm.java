@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class TC008_Forms 
+public class TC008_Forms_PracticeForm 
 {
 	public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException 
