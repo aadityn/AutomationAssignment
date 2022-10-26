@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class TC006_DownloadUpload 
+public class TC006_Elements_DownloadUpload 
 {
 	public static WebDriver driver;
 	public static void main(String[] args) throws AWTException, InterruptedException 
