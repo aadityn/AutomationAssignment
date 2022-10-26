@@ -59,7 +59,7 @@ public class TC008_Forms_PracticeForm
 		js.executeScript("arguments[0].click()", hobbyselection);
 		
 		
-		//uploading a file
+		//uploading a single file
 		WebElement upload = driver.findElement(By.id("uploadPicture"));
 		upload.sendKeys("C:\\Users\\aadityn\\Downloads\\sampleFile.jpeg");
 		
