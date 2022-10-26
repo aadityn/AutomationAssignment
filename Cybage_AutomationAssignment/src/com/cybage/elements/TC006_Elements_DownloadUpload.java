@@ -1,4 +1,4 @@
-package com.cybage.Automation;
+package com.cybage.elements;
 
 import java.awt.AWTException;
 import java.util.concurrent.TimeUnit;
