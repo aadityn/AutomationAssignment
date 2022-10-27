@@ -33,7 +33,7 @@ public class TC025_Interactions_Resizable
 		Thread.sleep(2000L);
 		
 		//closing the session
-	//	driver.quit();
+		driver.quit();
 		
 	}
 	
